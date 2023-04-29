@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <title>Calculator</title>        
+    </head>
+    <body>
+        <div class="background">
+            <h1>Calculator</h1><br>
+            <div class="grid-container">
+                <div class="screen">
+                    <div data-preview id="preview"></div>
+                    <div data-input id="input"></div>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <button data-delete id="delete"><img src="delete.png" alt="Delete button"></button>
+                <button data-clear id="clear">C</button>
+                <div></div>
+                <div></div>
+                <button data-operator id="operator">÷</button>
+                <button data-number>7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-operator id="operator">x</button>
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-operator id="operator">-</button>
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-operator id="operator">+</button>
+                <button data-changesign>+/-</button>
+                <button data-number>0</button>
+                <button data-number id="dot">.</button>
+                <button data-equals id="equals">=</button>
+            </div>
+            <div>
+                <div class="alert" id="addNumber">Ops, you have to add a number first.</div>
+                <div class="alert" id="noChangeSign">Ops, it's not possible to change sign with
+                    an operator in the equation.</div>
+            </div>
+        </div>    
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
