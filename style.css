@@ -45,7 +45,6 @@ h1 {
 .grid-container > button:active {
     transform: scale(0.9);
     transition-duration: 50ms;
-    font-size: 2vw;
     background-color: #ffffff;
 }
 
