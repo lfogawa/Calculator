@@ -63,7 +63,7 @@
 <br>
 
 <p>
-  BR-PT
+  PT-BR
 </p>
 
 <p align="justify">
@@ -101,7 +101,7 @@
 <br>
 
 <p>
-  BR-PT
+  PT-BR
 </p>
 
 ✔️ Uma prévia do resultado é exibida acima da equação.<br>
